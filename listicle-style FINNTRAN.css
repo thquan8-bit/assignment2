@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    color: rgb(51, 51, 51);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+/* Header */
+.hero {
+    height: 500px;
+
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.3)
+        ),
+        url("images/header.jpg");
+
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Page title */
+.hero h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+    font-weight: normal;
+    color: white;
+}
+
+
+/* Profile */
+.profile {
+    width: 700px;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.profile img {
+    width: 100px;
+    height: 100px;
+
+    border-radius: 100%;
+    border: 1px solid white;
+}
+
+
+.profile p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+
+    color: rgb(51, 51, 51);
+
+    margin: 5px 0;
+}
+
+
+/* Main content */
+main {
+    width: 700px;
+    margin: 80px auto;
+}
+
+
+/* Each beverage */
+.drink {
+    margin-bottom: 80px;
+}
+
+
+/* Beverage heading */
+.drink h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+    font-weight: bold;
+
+    color: rgb(51, 51, 51);
+
+    margin-bottom: 5px;
+}
+
+
+/* Number: 1., 2., 3., 4. */
+.drink h2 span {
+    color: rgba(0, 0, 0, 0.25);
+}
+
+
+/* Address links */
+.drink a {
+    color: #42b4d6;
+    text-decoration: none;
+}
+
+
+/* Underline when mouse is over link */
+.drink a:hover {
+    text-decoration: underline;
+}
+
+
+/* Paragraphs */
+.drink p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+
+    color: rgb(51, 51, 51);
+}
+
+
+/* Recommendation */
+.drink p strong {
+    font-weight: bold;
+}
